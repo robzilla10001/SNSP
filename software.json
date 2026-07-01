@@ -37,6 +37,7 @@
 	{ "name": "Sysmodules",            "repo": "ppkantorski/ovl-sysmodules",       "downloads": [ { "match": { "name": "ovlSysmodules.ovl", "ext_fallback": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "Emuiibo",               "repo": "XorTroll/emuiibo",                 "downloads": [ { "match": { "first": true }, "strip_prefix": "SdOut" } ] },
     { "name": "Sys-clk",               "repo": "ppkantorski/sys-clk",              "downloads": [ { "match": { "name": "sys-clk-overlay.ovl" }, "dest_subdir": "switch/.overlays" } ] },
+	{ "name": "Sys-patch",             "repo": "impeeza/sys-patch",                "downloads": [ { "match": { "first": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "sys-tune",              "repo": "ppkantorski/sys-tune",             "downloads": [ { "match": { "first": true } } ] }
   ]
 }
