@@ -28,8 +28,9 @@ asked for that?) but removing choice is where I draw a line in the sand.
    
 ## Known Issues
 - DBI indicates USB 2.0 speeds regardless of whether or not 3.0 is enabled;
-  however, it appears that it is utilizing 3.0 speeds (I observed 30-50mbps
-  transfers, whereas during 2.0 transfers I was getting low 20's).
+  it appears that it is utilizing 3.0 speeds (I observed 30-50mbps transfers,
+  whereas during 2.0 transfers I was getting low 20's). However, this is
+  below the max I've seen on previous versions (~70mbps). Will investigate.
 
 ## Requirements
 - Python 3.8+ (uses only the standard library for `.zip` and `.tar*`)
