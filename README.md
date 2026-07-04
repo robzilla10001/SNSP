@@ -86,3 +86,24 @@ Other per-download options:
 - **Possible GUI wrapper** for less technically inclined users. Will simply have an
   output field, a github token field, and a dry-run optional check box. Nothing flashy,
   and will remain platform agnostic.
+
+## Credits / Thanks
+- [`"SciresM"`](https://github.com/sciresm) - creation of Atmosphere and carrying it for many years, tons HB spanning many years.
+- [`"CTCaer"`](https://github.com/ctcaer) - creation of Hekate, constant updates and general reliability, reverse engineering efforts.
+- [`"borntohonk"`](https://github.com/borntohonk) - many improvements and extensions of necessary software, preferred fork of Atmosphere.
+- [`"rashevsky"`](https://github.com/rashevsky) - release and translations of DBI.
+- [`"ppkantorski"`](https://github.com/ppkantorski) - many, many updates and rebuilds to utilize libultra, biggest contributor to this project. Many thanks for ct_nx as well.
+- [`"ITotalJustice"`](https://github.com/ITotalJustice) - Sphaira, tons of notes and general HB assistance.
+- [`"impeeza"`](https://github.com/impeeza) - sys-patch/linkalho, tons of other HB contributions, many repos.
+- [`"DefenderOfHyrule"`](https://github.com/DefenderOfHyrule) - usk (not linked here, but used every day!) and modchip toolbox.
+- [`"proferabg"`](https://github.com/proferabg) - EdiZon.
+- [`"XorTroll"`](https://github.com/xorTroll) - Emuiibo, uLauncher (not used here, but very ambitious and awesome).
+- [`"masagrator"`](https://github.com/masagrator) - SaltyNX, many repos.
+- [`"J-D-K"`](https://github.com/J-D-K) - JKSV.
+- [`"luketanti"`](https://github.com/luketanti) - AeroFoil, CyberFoil, resurrecting the shop idea when TinFoil was abandoned. 
+- [`"GordyMcGarka"`](https://github.com/GordyMcGarka) - AIO-Customizer (still figuring it out; you may remove from deployment, non-essential, just hella interesting).
+- [`"exelix11"`](https://github.com/exelix11) - SwitchThemeInjector, patches, porting mono to switch (cool!).
+- [`"ndeadly"`](https://github.com/ndeadly/) - Mission Control, patches, many forks.
+- [`"GBATemp"`](https://gbatemp.net/forums/nintendo-switch.283/) - for fostering a (mostly) welcome place to dish and talk Switch HB.
+- [`"Github"`](https://github.com) - for hosting all my (few) attempts at relevance.
+- [`"sthetix"`](https://github.com/sthetix) - for showing me what to not do (fork ALL THE THINGS!). Also many payloads.
