@@ -101,9 +101,9 @@ Other per-download options:
 - [`"masagrator"`](https://github.com/masagrator) - SaltyNX, many repos.
 - [`"J-D-K"`](https://github.com/J-D-K) - JKSV.
 - [`"luketanti"`](https://github.com/luketanti) - AeroFoil, CyberFoil, resurrecting the shop idea when TinFoil was abandoned. 
-- [`"GordyMcGarka"`](https://github.com/GordyMcGarka) - AIO-Customizer (still figuring it out; you may remove from deployment, non-essential, just hella interesting).
 - [`"exelix11"`](https://github.com/exelix11) - SwitchThemeInjector, patches, porting mono to switch (cool!).
 - [`"ndeadly"`](https://github.com/ndeadly/) - Mission Control, patches, many forks.
+- [`"Horizon-OC"`](https://github.com/Horizon-OC/Horizon-OC) - Horizon-OC replaces Sys-clk and sysmon overlay.
 - [`"GBATemp"`](https://gbatemp.net/forums/nintendo-switch.283/) - for fostering a (mostly) welcome place to dish and talk Switch HB.
 - [`"Github"`](https://github.com) - for hosting all my (few) attempts at relevance.
 - [`"sthetix"`](https://github.com/sthetix) - for showing me what to not do (fork ALL THE THINGS!). Also many payloads.
