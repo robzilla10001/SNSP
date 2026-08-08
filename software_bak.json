@@ -2,6 +2,10 @@
   "_comment": "Each entry = one piece of software. 'repo' is owner/name on GitHub. Each download has a 'match' rule that picks an asset from the LATEST release, plus optional 'dest_subdir' (where a loose, non-archive file is placed),'rename-extracted' ([ ['blob', 'new_name'] ]) 'rename' and 'strip_prefix' (if the zip extracts to something other than absolute paths). Match types: {\"first\": true} = top asset; {\"index\": N} = Nth asset (0-based); {\"name\": \"x.zip\", \"ext_fallback\": true} = exact filename (case-insensitive), falling back to the only/first asset with that extension if the exact name is gone; {\"regex\": \"...\"} = regex on asset name. Archive assets (.zip/.7z/.rar/.tar*) are always extracted+merged into the root; non-archive assets are copied into dest_subdir (default root). Edit freely.",
   "software": [
     { "name": "Atmosphere",            "repo": "borntohonk/Atmosphere",            "downloads": [ { "match": { "first": true } } ] },
+	{ "name": "AIO Customizer",        "repo": "GordyMcGarka/AIO-Customizer",      "downloads": [
+	    { "match": { "regex": "(?i)AIO.Customizer.*\\.zip" }, "dest_subdir": "switch/.packages" },
+        { "match": { "name": "assets.zip" }
+		} ] },
 	{ "name": "Hekate+Nyx",            "repo": "CTCaer/hekate",                    "downloads": [ { "match": { "regex": "(?i)hekate_ctcaer_.*_Nyx_.*\\.zip" }, "rename_extracted": [ ["hekate_ctcaer_*.bin", "payload.bin"] ] } ] },
     { "name": "Cyberfoil",             "repo": "luketanti/CyberFoil",              "downloads": [ { "match": { "first": true } } ] },
     { "name": "DBI RU",                "repo": "rashevskyv/dbi",                   "downloads": [ 
@@ -14,7 +18,7 @@
     { "name": "JKSV",                  "repo": "J-D-K/JKSV",                       "downloads": [ { "match": { "name": "JKSV.nro", "ext_fallback": true }, "dest_subdir": "switch" } ] },
     { "name": "Linkalho",              "repo": "impeeza/linkalho",                 "downloads": [ { "match": { "first": true }, "dest_subdir": "switch" } ] },
     { "name": "NXThemeInstaller",      "repo": "exelix11/SwitchThemeInjector",     "downloads": [ { "match": { "name": "NXThemesInstaller.nro", "ext_fallback": true }, "dest_subdir": "switch" } ] },
-    { "name": "Sphaira",               "repo": "NaGaa95/sphaira",                  "downloads": [ { "match": { "name": "sphaira.nro", "ext_fallback": false }, "dest_subdir": "switch/Sphaira" } ] },
+    { "name": "Sphaira",               "repo": "ITotalJustice/sphaira",            "downloads": [ { "match": { "name": "Sphaira.zip", "ext_fallback": true } } ] },
     { "name": "Switch90DNSTester",     "repo": "meganukebmp/Switch_90DNS_tester",  "downloads": [ { "match": { "regex": "(?i)9.?0.?dns.*\\.nro" }, "dest_subdir": "switch" } ] },
     { "name": "Disable Remap dialog",  "repo": "ndeadly/disable_remap_dialog",     "downloads": [ { "match": { "regex": "(?i)disable_remap_dialog.*\\.zip" } } ] },
     { "name": "Mission Control",       "repo": "ndeadly/MissionControl",           "downloads": [ { "match": { "first": true } } ] },
@@ -28,9 +32,11 @@
     { "name": "Edizon",                "repo": "proferabg/EdiZon-Overlay",         "downloads": [ { "match": { "name": "EdiZon-Overlay.zip", "ext_fallback": true } } ] },
     { "name": "FPSLocker",             "repo": "ppkantorski/FPSLocker",            "downloads": [ { "match": { "name": "FPSLocker.ovl", "ext_fallback": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "QuickNTP",              "repo": "ppkantorski/QuickNTP",             "downloads": [ { "match": { "name": "QuickNTP.ovl" }, "dest_subdir": "switch/.overlays" } ] },
+    { "name": "Status Monitor Overlay","repo": "ppkantorski/Status-Monitor-Overlay", "downloads": [ { "match": { "name": "Status-Monitor-Overlay.ovl" }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "Ultrahand",             "repo": "ppkantorski/Ultrahand-Overlay",    "downloads": [ { "match": { "name": "ovlmenu.ovl", "ext_fallback": true }, "dest_subdir": "switch/.overlays" } ] },
-	{ "name": "Horizon-OC",            "repo": "Horizon-OC/Horizon-OC",            "downloads": [ { "match": { "name": "dist.zip", "ext_fallback": false } } ] },
+	{ "name": "Sysmodules",            "repo": "ppkantorski/ovl-sysmodules",       "downloads": [ { "match": { "name": "ovlSysmodules.ovl", "ext_fallback": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "Emuiibo",               "repo": "XorTroll/emuiibo",                 "downloads": [ { "match": { "first": true }, "strip_prefix": "SdOut" } ] },
+    { "name": "Sys-clk",               "repo": "ppkantorski/sys-clk",              "downloads": [ { "match": { "name": "sys-clk-overlay.ovl" }, "dest_subdir": "switch/.overlays" } ] },
 	{ "name": "Sys-patch",             "repo": "impeeza/sys-patch",                "downloads": [ { "match": { "first": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "sys-tune",              "repo": "ppkantorski/sys-tune",             "downloads": [ { "match": { "first": true } } ] }
   ]
