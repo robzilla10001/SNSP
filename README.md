@@ -18,6 +18,7 @@ asked for that?) but removing choice is where I draw a line in the sand.
 ## Files
 - `switchpack.py` — the script
 - `software.json` — editable list of apps, repos, and which asset to grab
+- `software_bak.json` — old version of the json, in case the most recent gives issues  
 - `MANIFEST.md` / `manifest.txt` — written into your output root after a run
 - `_extra/atmosphere/config/system_settings.ini` — starter config for Atmosphere
 - `_extra/bootloader/hekate_ipl.ini` — basic setup to get you booting right away, 
@@ -93,7 +94,8 @@ Other per-download options:
 - [`"borntohonk"`](https://github.com/borntohonk) - many improvements and extensions of necessary software, preferred fork of Atmosphere.
 - [`"rashevsky"`](https://github.com/rashevsky) - release and translations of DBI.
 - [`"ppkantorski"`](https://github.com/ppkantorski) - many, many updates and rebuilds to utilize libultra, biggest contributor to this project. Many thanks for ct_nx as well.
-- [`"ITotalJustice"`](https://github.com/ITotalJustice) - Sphaira, tons of notes and general HB assistance.
+- [`"ITotalJustice"`](https://github.com/ITotalJustice) - Base sphaira, tons of notes and general HB assistance.
+- [`"NaGaa95"`](https://github.com/NaGaa95) - Tons of ports, updated sphaira.
 - [`"impeeza"`](https://github.com/impeeza) - sys-patch/linkalho, tons of other HB contributions, many repos.
 - [`"DefenderOfHyrule"`](https://github.com/DefenderOfHyrule) - usk (not linked here, but used every day!) and modchip toolbox.
 - [`"proferabg"`](https://github.com/proferabg) - EdiZon.
