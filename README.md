@@ -18,7 +18,6 @@ asked for that?) but removing choice is where I draw a line in the sand.
 ## Files
 - `switchpack.py` — the script
 - `software.json` — editable list of apps, repos, and which asset to grab
-- `software_bak.json` — old version of the json, in case the most recent gives issues  
 - `MANIFEST.md` / `manifest.txt` — written into your output root after a run
 - `_extra/atmosphere/config/system_settings.ini` — starter config for Atmosphere
 - `_extra/bootloader/hekate_ipl.ini` — basic setup to get you booting right away, 
@@ -29,9 +28,8 @@ asked for that?) but removing choice is where I draw a line in the sand.
    
 ## Known Issues
 - DBI indicates USB 2.0 speeds regardless of whether or not 3.0 is enabled;
-  it appears that it is utilizing 3.0 speeds (I observed 30-50mbps transfers,
-  whereas during 2.0 transfers I was getting low 20's). However, this is
-  below the max I've seen on previous versions (~70mbps). Will investigate.
+  however, it appears that it is utilizing 3.0 speeds (I observed 30-50mbps
+  transfers, whereas during 2.0 transfers I was getting low 20's).
 
 ## Requirements
 - Python 3.8+ (uses only the standard library for `.zip` and `.tar*`)
@@ -82,30 +80,15 @@ Other per-download options:
   so if a specific file ever loses out unexpectedly, that's why.
 - If an asset name has drifted, the script prints the available asset names in the
   error so you can fix that one line in `software.json` quickly.
+  
+## Changelog  
+### v1.3
+- **Dropped sys-patch.** BornToHonk's Atmosphere fork has patches built in, no need for
+  redundancy.
+- **Fixed Sphaira entry.** Sphaira now packages full folder hierarchy rather than bare
+  nro. JSON modified to correctly extract and place contents.
 
 ## Future
 - **Possible GUI wrapper** for less technically inclined users. Will simply have an
   output field, a github token field, and a dry-run optional check box. Nothing flashy,
   and will remain platform agnostic.
-
-## Credits / Thanks
-- [`"SciresM"`](https://github.com/sciresm) - creation of Atmosphere and carrying it for many years, tons HB spanning many years.
-- [`"CTCaer"`](https://github.com/ctcaer) - creation of Hekate, constant updates and general reliability, reverse engineering efforts.
-- [`"borntohonk"`](https://github.com/borntohonk) - many improvements and extensions of necessary software, preferred fork of Atmosphere.
-- [`"rashevsky"`](https://github.com/rashevsky) - release and translations of DBI.
-- [`"ppkantorski"`](https://github.com/ppkantorski) - many, many updates and rebuilds to utilize libultra, biggest contributor to this project. Many thanks for ct_nx as well.
-- [`"ITotalJustice"`](https://github.com/ITotalJustice) - Base sphaira, tons of notes and general HB assistance.
-- [`"NaGaa95"`](https://github.com/NaGaa95) - Tons of ports, updated sphaira.
-- [`"impeeza"`](https://github.com/impeeza) - sys-patch/linkalho, tons of other HB contributions, many repos.
-- [`"DefenderOfHyrule"`](https://github.com/DefenderOfHyrule) - usk (not linked here, but used every day!) and modchip toolbox.
-- [`"proferabg"`](https://github.com/proferabg) - EdiZon.
-- [`"XorTroll"`](https://github.com/xorTroll) - Emuiibo, uLauncher (not used here, but very ambitious and awesome).
-- [`"masagrator"`](https://github.com/masagrator) - SaltyNX, many repos.
-- [`"J-D-K"`](https://github.com/J-D-K) - JKSV.
-- [`"luketanti"`](https://github.com/luketanti) - AeroFoil, CyberFoil, resurrecting the shop idea when TinFoil was abandoned. 
-- [`"exelix11"`](https://github.com/exelix11) - SwitchThemeInjector, patches, porting mono to switch (cool!).
-- [`"ndeadly"`](https://github.com/ndeadly/) - Mission Control, patches, many forks.
-- [`"Horizon-OC"`](https://github.com/Horizon-OC/Horizon-OC) - Horizon-OC replaces Sys-clk and sysmon overlay.
-- [`"GBATemp"`](https://gbatemp.net/forums/nintendo-switch.283/) - for fostering a (mostly) welcome place to dish and talk Switch HB.
-- [`"Github"`](https://github.com) - for hosting all my (few) attempts at relevance.
-- [`"sthetix"`](https://github.com/sthetix) - for showing me what to not do (fork ALL THE THINGS!). Also many payloads.

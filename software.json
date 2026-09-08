@@ -14,7 +14,7 @@
     { "name": "JKSV",                  "repo": "J-D-K/JKSV",                       "downloads": [ { "match": { "name": "JKSV.nro", "ext_fallback": true }, "dest_subdir": "switch" } ] },
     { "name": "Linkalho",              "repo": "impeeza/linkalho",                 "downloads": [ { "match": { "first": true }, "dest_subdir": "switch" } ] },
     { "name": "NXThemeInstaller",      "repo": "exelix11/SwitchThemeInjector",     "downloads": [ { "match": { "name": "NXThemesInstaller.nro", "ext_fallback": true }, "dest_subdir": "switch" } ] },
-    { "name": "Sphaira",               "repo": "NaGaa95/sphaira",                  "downloads": [ { "match": { "name": "sphaira.nro", "ext_fallback": false }, "dest_subdir": "switch/Sphaira" } ] },
+    { "name": "Sphaira",               "repo": "NaGaa95/sphaira",                  "downloads": [ { "match": { "name": "sphaira.zip", "ext_fallback": true } } ] },
     { "name": "Switch90DNSTester",     "repo": "meganukebmp/Switch_90DNS_tester",  "downloads": [ { "match": { "regex": "(?i)9.?0.?dns.*\\.nro" }, "dest_subdir": "switch" } ] },
     { "name": "Disable Remap dialog",  "repo": "ndeadly/disable_remap_dialog",     "downloads": [ { "match": { "regex": "(?i)disable_remap_dialog.*\\.zip" } } ] },
     { "name": "Mission Control",       "repo": "ndeadly/MissionControl",           "downloads": [ { "match": { "first": true } } ] },
@@ -31,7 +31,6 @@
     { "name": "Ultrahand",             "repo": "ppkantorski/Ultrahand-Overlay",    "downloads": [ { "match": { "name": "ovlmenu.ovl", "ext_fallback": true }, "dest_subdir": "switch/.overlays" } ] },
 	{ "name": "Horizon-OC",            "repo": "Horizon-OC/Horizon-OC",            "downloads": [ { "match": { "name": "dist.zip", "ext_fallback": false } } ] },
     { "name": "Emuiibo",               "repo": "XorTroll/emuiibo",                 "downloads": [ { "match": { "first": true }, "strip_prefix": "SdOut" } ] },
-	{ "name": "Sys-patch",             "repo": "impeeza/sys-patch",                "downloads": [ { "match": { "first": true }, "dest_subdir": "switch/.overlays" } ] },
     { "name": "sys-tune",              "repo": "ppkantorski/sys-tune",             "downloads": [ { "match": { "first": true } } ] }
   ]
 }
