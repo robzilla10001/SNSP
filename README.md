@@ -99,3 +99,23 @@ Other per-download options:
 - **Possible GUI wrapper** for less technically inclined users. Will simply have an
   output field, a github token field, and a dry-run optional check box. Nothing flashy,
   and will remain platform agnostic.
+
+## Thanks  
+- borntohonk - Atmosphere fork with patches integrated  
+- CTCaer - Hekate  
+- luketanti - CyberFoil  
+- rashevsky / duckbill - DBI  
+- J-D-K - JKSV  
+- impeeza - linkalho  
+- elelix11 - NXThemeInstaller  
+- NaGaa95 - Sphaira  
+- meganukebmp - Switch90DNSTester  
+- ndeadly - Disable Remap Dialog / MissionControl  
+- masagrator - SaltyNX  
+- ppkantorski - NX-ovlloader / FPSLocker / QuickNTP / Ultrahand / Sys-tune  
+- sthetix - FuseCheck / Lockpick RCM Pro / NetMan / TegraExplorer-Ext  
+- DefenderOfHyrule - Modchip Toolbox  
+- proferabg - EdiZon  
+- Horizon-OC - Horizon-OC  
+- XorTroll - Emuiibo
+- AvengedClippyFold - discovered source of bluescreen on emuMMC on latest Atmosphere  
