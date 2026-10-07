@@ -89,11 +89,14 @@ Other per-download options:
   error so you can fix that one line in `software.json` quickly.
   
 ## Changelog  
+### v1.3.1  
+- **Commented out HOC Kip reference.** HOC related kip1 line in hekate_ipl.ini called
+  an out of date HOC. It has been commented out until the project is updated.  
 ### v1.3
 - **Dropped sys-patch.** BornToHonk's Atmosphere fork has patches built in, no need for
   redundancy.
 - **Fixed Sphaira entry.** Sphaira now packages full folder hierarchy rather than bare
-  nro. JSON modified to correctly extract and place contents.
+  nro. JSON modified to correctly extract and place contents.]
 
 ## Future
 - **Possible GUI wrapper** for less technically inclined users. Will simply have an
