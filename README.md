@@ -123,6 +123,10 @@ Other per-download options:
   error so you can fix that one line in `software.json` quickly.
   
 ## Changelog  
+### v1.3.3  
+- **Removed line from hekate_ipl.ini that prevented boot in some cases.** Seems
+  it was leftover from Horizon-OC install. Not their fault, mine. Cleanup can be
+  tricky sometimes.
 ### v1.3.2
 - **Removed Horizon-OC.** Issues with HOC's KIP caused one of my test units to
   fail to load software titles or NRO's, whether as forwarders or through the
